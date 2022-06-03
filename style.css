@@ -1,0 +1,72 @@
+body {
+    font-size: 100%;
+    font-family: 'RocknRoll One', sans-serif;    
+}
+.accordion {
+    width: 85vw;
+    margin: 0 auto;
+}
+.accordion h1, h2, h3, h4 {
+    cursor: pointer;
+}
+
+.accordion h1 {
+    padding: 15px 20px;
+    background-color: rgb(138, 169, 216);
+    font-size: 1.5rem;
+    color: white;
+}
+.accordion h1:hover {
+    color: rgb(255, 255, 255, 0.7);
+}
+/* .accordion h1:first-child {
+    border-radius: 10px 10px 0 0;
+}
+.accordion h1:last-of-type {
+    border-radius: 0 0 10px 10px;
+} */
+.accordion h1:not(:last-of-type) {
+    border-bottom: 1px dotted rgb(199, 199, 199);
+}
+.accordion div{
+    display: none;
+}
+.accordion h2 {
+    margin: 0;
+    background-color: rgb(214, 214, 214);
+    font-size: 1.3rem;
+    color: rgb(99, 99, 99);
+    border-bottom: 0.5px solid white;
+
+}
+.accordion h2:hover {
+    background-color: rgb(199, 199, 199, 0.7);
+}
+
+.accordion .opened-for-codepen {
+    display: block;
+}
+
+.lesson {
+    margin: 0;
+    width: 80%;
+    display: inline-block;
+    padding: 10px 40px;
+}
+
+.minutes {
+    margin: 0;
+    width:19%;
+    display: inline-block;
+    text-align: right;
+    padding: 10px 25px;
+}
+
+.title {
+    height: 12vh;
+    text-align: center;
+    font-size: 2vw;
+    line-height: 12vh;
+    font-weight: bold;
+    color: gray;
+}
