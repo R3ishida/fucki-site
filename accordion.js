@@ -17,9 +17,9 @@ $(".accordion").click(function(e) {
     $(allAtDepth).slideUp("fast");
     
     //slideToggle target content and adjust bottom border if necessary
-    subItem.slideToggle("fast",function() {
-        $(".accordion :visible:last").css("border-radius","0 0 10px 10px");
-    });
-    $(target).css({"border-bottom-right-radius":"0", "border-bottom-left-radius":"0"});
+    // subItem.slideToggle("fast",function() {
+    //     $(".accordion :visible:last").css("border-radius","0 0 10px 10px");
+    // });
+    // $(target).css({"border-bottom-right-radius":"0", "border-bottom-left-radius":"0"});
   }
 });
