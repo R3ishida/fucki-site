@@ -20,6 +20,6 @@ $(".accordion").click(function(e) {
     // subItem.slideToggle("fast",function() {
     //     $(".accordion :visible:last").css("border-radius","0 0 10px 10px");
     // });
-    // $(target).css({"border-bottom-right-radius":"0", "border-bottom-left-radius":"0"});
+    $(target).css({"border-bottom-right-radius":"0", "border-bottom-left-radius":"0"});
   }
 });
