@@ -2285,7 +2285,7 @@ for (let i = 0 ; i < lesson_titles.length ; i++) {
         lecture = new_lessons[title][n]["lecture"]
         url = new_lessons[title][n]["url"]
         minutes = new_lessons[title][n]["minutes"]
-        html_code += "<h2><a href=\""+url+"\"><section class=\"lesson\">"+lecture+"</section></a><a href=\""+minutes+"\"><section class=\"minutes\">ミニッツ</section></a></h2>"
+        html_code += "<h2><a href=\""+url+"\" target=\"_blank\"><section class=\"lesson\">"+lecture+"</section></a><a href=\""+minutes+"\"target=\"_blank\"><section class=\"minutes\">ミニッツ</section></a></h2>"
     }
     html_code += "</div>"
 }
